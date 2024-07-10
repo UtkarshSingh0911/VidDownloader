@@ -12,8 +12,10 @@ try:
 
     print("Video Downloading...")
     
-    linkstream.download('D:\\Work\\AAA\\projects\\ytdownload\\videos')
+    linkstream.download('local directory')
     
     print("Video Downloaded")
 except Exception as e:
     print("An error occurred:", str(e))
+
+#put the location of folder in place of local directory (line 15).
